@@ -1,0 +1,12 @@
+<ul>
+  <li>Static list 1</li>
+  <li>Static list 2</li>
+</ul>
+ 
+<ul>
+  <li *ngFor="let item of list">
+    {{item.title}}
+  </li>
+</ul>
+
+<button (click)="Add('Another Line');">Add More</button>

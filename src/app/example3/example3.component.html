@@ -1,0 +1,14 @@
+<ul>
+  <li>Static list 1</li>
+  <li class="highlight">Static list 2</li>
+</ul>
+
+<ul>
+  <li *ngFor="let item of list; index as i;"
+      [class.highlight]="i % 2"
+      >{{item.title}}
+  </li>
+</ul>
+
+<div *ngIf="list.length > 4">More than 4 rows</div>
+<button (click)="Add('Another Line');">Add More</button>
