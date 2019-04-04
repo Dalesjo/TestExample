@@ -9,6 +9,8 @@ import { Example4Component } from './example4/example4.component';
 
 import { Example5Component } from './example5/example5.component';
 import { Example6Component } from './example6/example6.component';
+import { Example7Component } from './example7/example7.component';
+import { Example8Component } from './example8/example8.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'example1', pathMatch: 'full'},
@@ -17,7 +19,9 @@ const routes: Routes = [
   {path: 'example3', component: Example3Component},
   {path: 'example4', component: Example4Component},
   {path: 'example5', component: Example5Component},
-  {path: 'example6', component: Example6Component}
+  {path: 'example6', component: Example6Component},
+  {path: 'example7', component: Example7Component},
+  {path: 'example8', component: Example8Component}
 ];
 
 @NgModule({
