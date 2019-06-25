@@ -11,6 +11,11 @@ import { Example5Component } from './example5/example5.component';
 import { Example6Component } from './example6/example6.component';
 import { Example7Component } from './example7/example7.component';
 import { Example8Component } from './example8/example8.component';
+import { Example9Component } from './example9/example9.component';
+import { Example10Component } from './example10/example10.component';
+import { Example11Component } from './example11/example11.component';
+import { Example12Component } from './example12/example12.component';
+import { AlloComponent } from './allo/allo.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'example1', pathMatch: 'full'},
@@ -21,7 +26,12 @@ const routes: Routes = [
   {path: 'example5', component: Example5Component},
   {path: 'example6', component: Example6Component},
   {path: 'example7', component: Example7Component},
-  {path: 'example8', component: Example8Component}
+  { path: 'example8', component: Example8Component },
+  { path: 'example9', component: Example9Component },
+  { path: 'example10', component: Example10Component },
+  { path: 'example11', component: Example11Component },
+  { path: 'example12', component: Example12Component },
+  { path: 'allo', component: AlloComponent },
 ];
 
 @NgModule({

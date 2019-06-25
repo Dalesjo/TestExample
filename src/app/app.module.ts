@@ -12,6 +12,12 @@ import { Example5Component } from './example5/example5.component';
 import { Example6Component } from './example6/example6.component';
 import { Example7Component } from './example7/example7.component';
 import { Example8Component } from './example8/example8.component';
+import { AlloComponent } from './allo/allo.component';
+import { Example9Component } from './example9/example9.component';
+import { Example10Component } from './example10/example10.component';
+import { Example11Component } from './example11/example11.component';
+import { Example12Component } from './example12/example12.component';
+import { ReusableExampleComponent } from './reusable-example/reusable-example.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +30,13 @@ import { Example8Component } from './example8/example8.component';
     Example5Component,
     Example6Component,
     Example7Component,
-    Example8Component
+    Example8Component,
+    AlloComponent,
+    Example9Component,
+    Example10Component,
+    Example11Component,
+    Example12Component,
+    ReusableExampleComponent
   ],
   imports: [
     BrowserModule,
